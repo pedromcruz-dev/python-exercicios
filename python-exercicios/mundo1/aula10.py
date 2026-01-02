@@ -1,5 +1,7 @@
-#CONDIÇÕES
-
+#Condições
+#Versão: Iniciante
+#Linguagem: Python
+#Conceitos usados: if/else, input, calculo
 
 
 #Condição Composta
@@ -12,10 +14,8 @@ else:
 print("--FIM--")
 
 
-
 #Condição Composta Simplificada
 print('carro novo' if tempo <= 3 else 'carro velho')
-
 
 
 #Prática00
