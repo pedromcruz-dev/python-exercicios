@@ -1,4 +1,7 @@
 #Bibliotecas / Módulos
+#Versão: Iniciante
+#Linguagem: Python
+#Conceitos usados: import/from, bibliotecas, input/print, cáculo.
 
 #exerc 1
 from math import floor
@@ -54,5 +57,6 @@ import pygame
 pygame.init()
 pygame.mixer.music.load(r"C:\Users\conta\OneDrive\Documentos\Aulas Guanabara\Guzman{Gly2szOBF5s].mp3")
 pygame.mixer.music.play()
+
 
 input("Pressione Enter para parar...")
