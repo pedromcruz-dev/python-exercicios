@@ -1,4 +1,7 @@
-# MANIPULAÇÃO DE TEXTO
+#Manipulação de texto
+#Versão: iniciante
+#Linguagem: Python
+#Conceitos usados: fatiamento, análise e transformação de strings.
 
 #fatiamento
 
@@ -16,7 +19,7 @@ print(frase[15:])
 
 print(frase[9::3])
 
-#anlálise
+#análise
 
 print(len(frase))
 
@@ -117,5 +120,6 @@ print(f"Ánalisando o nome: {nome}")
 nomesplit = nome.split()
 
 print(nomesplit[0].title())
+
 
 print(nomesplit[-1].title())
