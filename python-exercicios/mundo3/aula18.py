@@ -166,29 +166,3 @@
 #     if r == 999:
 #         print("ENCERRANDO PROGRAMA...")
 #         break
-
-
-# alunos = list()
-# while True:
-#     nome = str(input("Nome: ")).capitalize()
-#     nota1 = float(input("Nota 1: "))
-#     nota2 = float(input("Nota 2:"))
-#     media = (nota1 + nota2) / 2
-#     alunos.append([nome, [nota1, nota2], media])
-#     opc = str(input("Continuar? [S/N]: "))
-#     if opc in 'Nn':
-#         break
-# print()
-# print("-"*3, "BOLETIM", "-"*3)
-# print(f'{"No":<5}{"NOME":<10}{"MÉDIA":>5}')
-# print("-"*20)
-# for i, n in enumerate(alunos):
-#     print(f"{i:<5}{n[0]:<10}{n[2]:>5}")
-# print()
-# while True:
-#     opc2 = int(input("Quer ver as notas de qual aluno? [999 finaliza]: "))
-#     if opc2 == 999:
-#         break
-#     for i, p in enumerate(alunos):
-#         if opc2 == i:
-#             print(f"As notas de {p[0]} são {p[1]}")
